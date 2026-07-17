@@ -6,7 +6,7 @@ Generates polished software engineering resumes packed with buzzwords.
 
 ## Demo
 
-![](assets/demo.gif)
+![ResumeSlop output](assets/demo.png)
 
 ## Installation
 
