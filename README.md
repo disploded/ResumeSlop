@@ -13,7 +13,7 @@ Generates polished software engineering resumes packed with buzzwords.
 Clone the repository.
 
 ```bash
-git clone https://github.com/yourname/resumeslop.git
+git clone https://github.com/disploded/resumeslop.git
 cd resumeslop
 ```
 
