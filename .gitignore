@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+*.pdf
+
+.vscode/
+.idea/
+
+# Neovim
+Session.vim
+*.vim
