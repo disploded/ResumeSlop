@@ -6,26 +6,10 @@ Generates polished software engineering resumes packed with buzzwords.
 
 ## Demo
 
+Try it here:
+[https://resumeslop1.onrender.com/](https://resumeslop1.onrender.com)
+
 ![ResumeSlop output](assets/demo.png)
-
-## Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/disploded/resumeslop.git
-cd resumeslop
-```
-
-Install Typst if you haven't already.
-
-Generate your masterpiece.
-
-```bash
-python generator.py
-```
-
-A fresh resume full of enterprise excellence will appear as `resume.pdf`.
 
 ## Contributing
 
