@@ -7,7 +7,7 @@ Generates polished software engineering resumes packed with buzzwords.
 ## Demo
 
 Try it here:
-[https://your-render-url.onrender.com](https://resumeslop1.onrender.com)
+[https://resumeslop1.onrender.com/](https://resumeslop1.onrender.com)
 
 ![ResumeSlop output](assets/demo.png)
 
