@@ -13,7 +13,8 @@ Try it here:
 
 ## Contributing
 
-Feel free to open a PR.
+want an open source contribution for your resume?
+open a pull request to data.py and claim you increased generation efficiency by 500%
 
 We're always looking for people to add:
 - more meaningful buzzwords
