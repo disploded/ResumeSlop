@@ -1,7 +1,8 @@
 import subprocess
-import os
 import random
 import data
+import tempfile
+
 
 
 def pick(arr):
@@ -9,6 +10,11 @@ def pick(arr):
 
 
 def run():
+    pdf = tempfile.NamedTemporaryFile(
+        suffix=".pdf",
+        delete=False
+    ).name
+
 
     values = {
         "name": pick(data.names),
@@ -25,10 +31,8 @@ def run():
         "technologies": ", ".join(random.sample(data.technologies, 6)),
     }
 
-
     # Jobs
     for i in range(3):
-
         values[f"job{i}_company"] = pick(data.companies)
         values[f"job{i}_title"] = pick(data.job_titles)
         values[f"job{i}_location"] = pick(data.job_locations)
@@ -40,7 +44,6 @@ def run():
 
         for j in range(3):
             values[f"job{i}_bullet{j}"] = bullets[j]
-
 
     # Projects
     for i in range(2):
@@ -62,14 +65,12 @@ def run():
         values[f"project{i}_bullet0"] = bullets[0]
         values[f"project{i}_bullet1"] = bullets[1]
 
-
     command = [
         "typst",
         "compile",
         "format.typ",
-        "resume.pdf"
+        pdf
     ]
-
 
     for key, value in values.items():
         command.extend([
@@ -77,15 +78,13 @@ def run():
             f"{key}={value}"
         ])
 
-
     subprocess.run(
         command,
         check=True
     )
 
-
-    if os.name == "nt":
-        os.startfile("resume.pdf")
+    return pdf
 
 
-run()
+if __name__ == "__main__":
+    print(run())
