@@ -6,10 +6,11 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y curl tar
 
-RUN wget https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz \
-    && tar -xf typst-x86_64-unknown-linux-musl.tar.xz \
+RUN curl -L https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz \
+    -o typst.tar.xz \
+    && tar -xf typst.tar.xz \
     && mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
 
 EXPOSE 5000
