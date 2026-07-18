@@ -117,5 +117,5 @@ start-date: sys.inputs.at("project1_start"),
 
 == Skills
 
-- *Programming Languages*: #sys.inputs.at("skills")
+- *Skills*: #sys.inputs.at("skills")
 - *Technologies*: #sys.inputs.at("technologies")

@@ -29,7 +29,15 @@ names = [
     "Brian Anderson",
     "Eric Robinson",
     "Dylan Thompson",
-    "Andrew Ate"
+    "Andrew Ate",
+    "Oliver Black",
+    "Blaine Brown",
+    "Jeremy Brown",
+    "Aniki's Long Johnson",
+    "Noto Puffs",
+    "Sofee Dewa Alexander The Goat Sofian Affendi",
+    "Alper The 3rd Dindar"
+
 ]
 
 
@@ -98,7 +106,8 @@ locations = [
     "Open Source Community",
     "AI Research District",
     "Future Technology Valley",
-    "Beijin, NZ"
+    "Beijin, NZ",
+    "19 sunvale cresent, NZ"
 ]
 
 
@@ -133,7 +142,10 @@ institutions = [
     "Software Architecture Institute",
     "Next Generation Technology School",
     "The University of Production Readiness",
-    "Roblox Dev School"
+    "Roblox Dev School",
+    "Lytton High School",
+    "University of Auckland",
+    "University of Otago"
 ]
 
 
@@ -168,7 +180,8 @@ degrees = [
     "Data Infrastructure Engineering",
     "Software Innovation",
     "Computer Science",
-    "Bachelor of Roblox"
+    "Bachelor of Roblox",
+    "Masters of Wisdom"
 ]
 
 
@@ -203,7 +216,8 @@ gpas = [
     "3.76/4.0",
     "4.0/4.0",
     "Above expected benchmarks",
-    "Top of shapes and colours class (child prodigy)"
+    "Top of shapes and colours class (child prodigy)",
+    "1/1"
 ]
 
 
@@ -237,7 +251,8 @@ awards = [
     "Zero Downtime Achievement",
     "AI Integration Award",
     "Distinguished Engineering Potential Award",
-    "Principal Engineer Preparation Certificate"
+    "Principal Engineer Preparation Certificate",
+    "Most Likely To, P.S.Y get these nuts on your chin"
 ]
 
 
@@ -261,6 +276,7 @@ coursework = [
     "Compiler Design",
     "Parallel Computing",
     "Data Mining",
+    "Bitcoin Mining",
     "Big Data Engineering",
     "Advanced Databases",
     "Software Testing",
@@ -271,7 +287,8 @@ coursework = [
     "Enterprise Architecture",
     "Modern Application Frameworks",
     "AI Product Engineering",
-    "Production Engineering"
+    "Production Engineering",
+    "Straight Piping"
 ]
 
 skills = [
@@ -309,7 +326,9 @@ skills = [
     "Tik Tok",
     "Watching reels",
     "Consuming",
-    "Gooning"
+    "Gooning",
+    "Japanese",
+    "English"
 ]
 
 
@@ -514,7 +533,8 @@ job_bullets = [
     "Migrated entire platform while only breaking several minor features",
     "Enhanced system architecture through strategic buzzword alignment",
     "Improved application reliability by removing all unreliable code",
-    "Developed scalable solutions capable of scaling further"
+    "Developed scalable solutions capable of scaling further",
+    "Put the fries in the bag"
 ]
 
 projects = [
@@ -620,4 +640,3 @@ project_bullets = [
     "Created documentation explaining the project better than the project itself",
     "Engineered a future-proof system that became outdated immediately"
 ]
-
