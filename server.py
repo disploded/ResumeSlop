@@ -1,10 +1,18 @@
-from flask import Flask, send_file
+from flask import Flask, send_file, send_from_directory
 from generator import run
 from flask_cors import CORS
 import os
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route("/")
+def home():
+    return send_from_directory(".", "index.html")
+
+@app.route("/<path:path>")
+def static_files(path):
+    return send_from_directory(".", path)
 
 @app.route('/generate')
 def generate():

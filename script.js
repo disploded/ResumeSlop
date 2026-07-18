@@ -5,7 +5,7 @@ const download = document.getElementById("download");
 button.addEventListener("click", async () => {
 
     const response = await fetch(
-        "http://localhost:5000/generate"
+        "/generate"
     );
 
     const blob = await response.blob();
