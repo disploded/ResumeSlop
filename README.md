@@ -9,7 +9,7 @@ Generates polished software engineering resumes packed with buzzwords.
 Try it here:
 [https://resumeslop1.onrender.com/](https://resumeslop1.onrender.com)
 
-![ResumeSlop output](assets/demo.png)
+![ResumeSlop output](assets/demo1.png)
 
 ## Contributing
 
