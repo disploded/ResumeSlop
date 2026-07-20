@@ -51,8 +51,11 @@ names = [
     "Aniki's Long Johnson",
     "Noto Puffs",
     "Sofee Dewa Alexander The Goat Sofian Affendi",
-    "Alper The 3rd Dindar"
-
+    "Alper The 3rd Dindar",
+    "John Cena",
+    "Latrell Waitoa",
+    "Tutku Pincer",
+    "Jeremy Bing"
 ]
 
 
