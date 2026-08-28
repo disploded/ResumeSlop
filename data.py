@@ -346,7 +346,9 @@ skills = [
     "Consuming",
     "Gooning",
     "Japanese",
-    "English"
+    "English",
+    "Prompt Engineering",
+    "Agentic Engineering"
 ]
 
 
@@ -381,7 +383,12 @@ technologies = [
     "RabbitMQ",
     "Firebase",
     "Cloudflare",
-    "ChatGPT"
+    "ChatGPT",
+    "Vim",
+    "VS Code",
+    "Claude Code",
+    "Stack Overflow",
+    "Google"
 ]
 
 
@@ -450,6 +457,7 @@ job_titles = [
     "Digital Transformation Engineer",
     "Principal Framework Engineer",
     "Senior Code Optimization Specialist"
+    "Quantum Engineer"
 ]
 
 
@@ -656,5 +664,8 @@ project_bullets = [
     "Improved user experience by adding more loading animations",
     "Developed a scalable solution ready for problems that do not exist yet",
     "Created documentation explaining the project better than the project itself",
-    "Engineered a future-proof system that became outdated immediately"
+    "Engineered a future-proof system that became outdated immediately",
+    "Integrated race condition predicator and situationally improved performance by 673%",
+    "Agenticly converted whole typescript database to javascript",
+    "Leveraged a cutting edge HyperText Markup Language empowered by Cascading Style Sheets"
 ]
